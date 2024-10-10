@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  flex-direction: column; /*배치를 상하로!*/
+  justify-content: center;
+  align-items: center;
+  gap: 5px; /*상위요소인 main에 gap을 줘야 하위요소들에 gap이 생김*/
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.board-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  width: 60px;
+  height: 60px;
+}
